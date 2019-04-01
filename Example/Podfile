@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'EZSaaSSDK_Example' do
+  pod 'EZSaaSSDK', :path => '../'
+
+  target 'EZSaaSSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
