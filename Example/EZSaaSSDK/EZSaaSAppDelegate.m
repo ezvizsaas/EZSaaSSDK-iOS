@@ -7,12 +7,16 @@
 //
 
 #import "EZSaaSAppDelegate.h"
+#import <EZSaaSCoreSDK/EZSaaSCoreSDK.h>
+
 
 @implementation EZSaaSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [EZSaaSProgressHUD resetDefaultSettings];
+
     return YES;
 }
 

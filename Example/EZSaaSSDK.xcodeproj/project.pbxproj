@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DBB3F562251F4310091FAFA /* RealPlayParaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB3F522251F4300091FAFA /* RealPlayParaVC.m */; };
+		4DBB3F572251F4310091FAFA /* DeviceSettingParaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB3F532251F4300091FAFA /* DeviceSettingParaVC.m */; };
+		4DBB3F582251F4310091FAFA /* PlayBackParaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB3F552251F4310091FAFA /* PlayBackParaVC.m */; };
+		4DBB3F5B2251F4860091FAFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB3F5A2251F4860091FAFA /* ViewController.m */; };
 		56D094C862527FBC7A479416 /* Pods_EZSaaSSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A4E58644F24AF541CEF8B3 /* Pods_EZSaaSSDK_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -14,7 +18,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* EZSaaSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* EZSaaSAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* EZSaaSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* EZSaaSViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,9 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		48D8B69D4BB82A5CC3860162 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		48D8B69D4BB82A5CC3860162 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4DBB3F502251F4300091FAFA /* RealPlayParaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealPlayParaVC.h; sourceTree = "<group>"; };
+		4DBB3F512251F4300091FAFA /* DeviceSettingParaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceSettingParaVC.h; sourceTree = "<group>"; };
+		4DBB3F522251F4300091FAFA /* RealPlayParaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealPlayParaVC.m; sourceTree = "<group>"; };
+		4DBB3F532251F4300091FAFA /* DeviceSettingParaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceSettingParaVC.m; sourceTree = "<group>"; };
+		4DBB3F542251F4300091FAFA /* PlayBackParaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayBackParaVC.h; sourceTree = "<group>"; };
+		4DBB3F552251F4310091FAFA /* PlayBackParaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayBackParaVC.m; sourceTree = "<group>"; };
+		4DBB3F592251F4850091FAFA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DBB3F5A2251F4860091FAFA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		51FB2970EBA92DDDB7936DF9 /* Pods_EZSaaSSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZSaaSSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B791E7EA006F93FFF08A4AE /* EZSaaSSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EZSaaSSDK.podspec; path = ../EZSaaSSDK.podspec; sourceTree = "<group>"; };
+		5B791E7EA006F93FFF08A4AE /* EZSaaSSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EZSaaSSDK.podspec; path = ../EZSaaSSDK.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* EZSaaSSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZSaaSSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,8 +61,6 @@
 		6003F59B195388D20070C39A /* EZSaaSSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EZSaaSSDK-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* EZSaaSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZSaaSAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* EZSaaSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZSaaSAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* EZSaaSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZSaaSViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* EZSaaSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZSaaSViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* EZSaaSSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZSaaSSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,7 +70,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE6EB1187E3336E174BE1FB1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AE6EB1187E3336E174BE1FB1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B188E90D2FFBE9B1596DB293 /* Pods-EZSaaSSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZSaaSSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZSaaSSDK_Tests/Pods-EZSaaSSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B6A4E58644F24AF541CEF8B3 /* Pods_EZSaaSSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZSaaSSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB75AA3E4B7AC6A44700809F /* Pods-EZSaaSSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZSaaSSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZSaaSSDK_Example/Pods-EZSaaSSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,11 +152,17 @@
 		6003F593195388D20070C39A /* Example for EZSaaSSDK */ = {
 			isa = PBXGroup;
 			children = (
+				4DBB3F592251F4850091FAFA /* ViewController.h */,
+				4DBB3F5A2251F4860091FAFA /* ViewController.m */,
+				4DBB3F512251F4300091FAFA /* DeviceSettingParaVC.h */,
+				4DBB3F532251F4300091FAFA /* DeviceSettingParaVC.m */,
+				4DBB3F542251F4300091FAFA /* PlayBackParaVC.h */,
+				4DBB3F552251F4310091FAFA /* PlayBackParaVC.m */,
+				4DBB3F502251F4300091FAFA /* RealPlayParaVC.h */,
+				4DBB3F522251F4300091FAFA /* RealPlayParaVC.m */,
 				6003F59C195388D20070C39A /* EZSaaSAppDelegate.h */,
 				6003F59D195388D20070C39A /* EZSaaSAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* EZSaaSViewController.h */,
-				6003F5A6195388D20070C39A /* EZSaaSViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -208,6 +223,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				B153AE2DC5AFFE92A04EC9D1 /* [CP] Embed Pods Frameworks */,
+				321CAF7DC54978552CD808CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +263,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = BossKinKa;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 5DHDUGG7JV;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -294,6 +314,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		321CAF7DC54978552CD808CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EZSaaSSDK_Example/Pods-EZSaaSSDK_Example-resources.sh",
+				"${PODS_ROOT}/../../EZSaaSSDK/Resource/EZSaaSAddDevicePlugin.bundle",
+				"${PODS_ROOT}/../../EZSaaSSDK/Resource/EZSaaSAlbumPlugin.bundle",
+				"${PODS_ROOT}/../../EZSaaSSDK/Resource/EZSaaSCommonPlugin.bundle",
+				"${PODS_ROOT}/../../EZSaaSSDK/Resource/EZSaaSDeviceSettingPlugin.bundle",
+				"${PODS_ROOT}/../../EZSaaSSDK/Resource/EZSaaSHomePlugin.bundle",
+				"${PODS_ROOT}/../../EZSaaSSDK/Resource/EZSaaSLoginPlugin.bundle",
+				"${PODS_ROOT}/../../EZSaaSSDK/Resource/EZSaaSMessagePlugin.bundle",
+				"${PODS_ROOT}/../../EZSaaSSDK/Resource/EZSaaSMinePlugin.bundle",
+				"${PODS_ROOT}/../../EZSaaSSDK/Resource/EZSaaSModulePlugin.bundle",
+				"${PODS_ROOT}/../../EZSaaSSDK/Resource/EZSaaSOrgTreePlugin.bundle",
+				"${PODS_ROOT}/../../EZSaaSSDK/Resource/EZSaaSPlayBackPlugin.bundle",
+				"${PODS_ROOT}/../../EZSaaSSDK/Resource/EZSaaSProgressHUD.bundle",
+				"${PODS_ROOT}/../../EZSaaSSDK/Resource/EZSaaSRealPlayPlugin.bundle",
+				"${PODS_ROOT}/../../EZSaaSSDK/Resource/EZSaaSRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EZSaaSAddDevicePlugin.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EZSaaSAlbumPlugin.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EZSaaSCommonPlugin.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EZSaaSDeviceSettingPlugin.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EZSaaSHomePlugin.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EZSaaSLoginPlugin.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EZSaaSMessagePlugin.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EZSaaSMinePlugin.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EZSaaSModulePlugin.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EZSaaSOrgTreePlugin.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EZSaaSPlayBackPlugin.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EZSaaSProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EZSaaSRealPlayPlugin.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EZSaaSRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZSaaSSDK_Example/Pods-EZSaaSSDK_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3F590A990AF98107F17F74C7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,13 +415,27 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-EZSaaSSDK_Example/Pods-EZSaaSSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/EZSaaSSDK/EZSaaSSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${PODS_ROOT}/EZOpenSDK/dist/EZOpenSDK/dynamicSDK/EZOpenSDKFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZSaaSSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZOpenSDKFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebViewJavascriptBridge.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,8 +449,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBB3F5B2251F4860091FAFA /* ViewController.m in Sources */,
 				6003F59E195388D20070C39A /* EZSaaSAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* EZSaaSViewController.m in Sources */,
+				4DBB3F562251F4310091FAFA /* RealPlayParaVC.m in Sources */,
+				4DBB3F582251F4310091FAFA /* PlayBackParaVC.m in Sources */,
+				4DBB3F572251F4310091FAFA /* DeviceSettingParaVC.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,12 +582,16 @@
 			baseConfigurationReference = ED139DFCC1B4F40969D9D6D0 /* Pods-EZSaaSSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5DHDUGG7JV;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EZSaaSSDK/EZSaaSSDK-Prefix.pch";
 				INFOPLIST_FILE = "EZSaaSSDK/EZSaaSSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = ezviz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = ezviz.development;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -512,12 +601,16 @@
 			baseConfigurationReference = CB75AA3E4B7AC6A44700809F /* Pods-EZSaaSSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EZSaaSSDK/EZSaaSSDK-Prefix.pch";
 				INFOPLIST_FILE = "EZSaaSSDK/EZSaaSSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = ezviz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

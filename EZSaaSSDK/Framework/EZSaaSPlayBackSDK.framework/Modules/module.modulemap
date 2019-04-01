@@ -1,0 +1,6 @@
+framework module EZSaaSPlayBackSDK {
+  umbrella header "EZSaaSPlayBackSDK.h"
+
+  export *
+  module * { export * }
+}

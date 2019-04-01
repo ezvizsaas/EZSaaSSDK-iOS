@@ -1,0 +1,6 @@
+framework module EZSaaSLoginSDK {
+  umbrella header "EZSaaSLoginSDK.h"
+
+  export *
+  module * { export * }
+}

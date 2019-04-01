@@ -1,0 +1,6 @@
+framework module EZSaaSRealPlaySDK {
+  umbrella header "EZSaaSRealPlaySDK.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module EZSaaSAlbumSDK {
+  umbrella header "EZSaaSAlbumSDK.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module EZSaaSSDK {
+  umbrella header "EZSaaSSDK.h"
+
+  export *
+  module * { export * }
+}

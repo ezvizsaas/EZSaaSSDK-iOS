@@ -1,0 +1,6 @@
+framework module EZSaaSOrgTreeSDK {
+  umbrella header "EZSaaSOrgTreeSDK.h"
+
+  export *
+  module * { export * }
+}

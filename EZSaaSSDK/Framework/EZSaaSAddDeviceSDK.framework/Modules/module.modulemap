@@ -1,0 +1,6 @@
+framework module EZSaaSAddDeviceSDK {
+  umbrella header "EZSaaSAddDeviceSDK.h"
+
+  export *
+  module * { export * }
+}

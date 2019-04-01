@@ -8,35 +8,28 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EZSaaSSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of EZSaaSSDK.'
+  s.version          = '1.0.0'
+  s.summary          = 'SDK opened from EZSaaS to help customer connect with EZSaaS service'
+  s.description      = 'EZSaaSSDK is opened from EZVIZ Hangzhou Co,.Ltd'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/BossKinKa/EZSaaSSDK'
+  s.homepage         = 'https://github.com/ezvizsaas/EZSaaSSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'BossKinKa' => 'BossKinKa@gmail.com' }
+  s.author           = { 'ezvizsaas' => 'zhangkepei@hikvision.com' }
   s.source           = { :git => 'https://github.com/BossKinKa/EZSaaSSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'EZSaaSSDK/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'EZSaaSSDK' => ['EZSaaSSDK/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.resources = 'EZSaaSSDK/Resource/*'
+  s.dependency 'AFNetworking'
+  s.dependency 'Masonry'
+  s.dependency 'ReactiveObjC'
+  s.dependency 'SDWebImage'
+  s.dependency 'IQKeyboardManager'
+  s.dependency 'WebViewJavascriptBridge'
+  s.dependency 'FMDB'
+  s.dependency 'EZOpenSDK'
+  s.vendored_frameworks = 'EZSaaSSDK/Framework/*.framework'
 end
