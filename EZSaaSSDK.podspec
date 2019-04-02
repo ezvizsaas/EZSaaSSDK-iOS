@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'EZSaaSSDK/Classes/**/*'
   s.resources = 'EZSaaSSDK/Resource/*'
   s.dependency 'AFNetworking'
   s.dependency 'Masonry'
